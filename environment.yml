@@ -1,0 +1,14 @@
+name: treetx
+channels:
+  - defaults
+  - conda-forge
+  - pytorch
+  - nvidia
+dependencies:
+  - python=3.9
+  - pytorch=1.13.1
+  - pytorch-cuda=11.6
+  - fairseq=0.12.3
+  - nltk=3.7
+  - ipython
+  - sacremoses=0.0.53
